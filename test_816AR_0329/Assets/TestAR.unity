@@ -37,7 +37,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311918, g: 0.3807398, b: 0.35872716, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -442,7 +442,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400226, guid: 225b5fe47c87aae41bc6d7411dc2b5a1, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400226, guid: 225b5fe47c87aae41bc6d7411dc2b5a1, type: 3}
       propertyPath: m_LocalScale.x
@@ -1145,4 +1145,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4a02f8f33895b3d439c31d8298bcf428, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.5
+  moveSpeed: 1e+15
+  turnSpeed: 1
