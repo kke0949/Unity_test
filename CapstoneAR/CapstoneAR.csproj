@@ -101,7 +101,9 @@
     <Compile Include="Assets\ARToolKit5-Unity\Scripts\ARTrackedObject.cs" />
     <Compile Include="Assets\ARToolKit5-Unity\Scripts\ARTransitionalCamera.cs" />
     <Compile Include="Assets\ARToolKit5-Unity\Scripts\ARUtilityFunctions.cs" />
+    <Compile Include="Assets\ARToolKit5-Unity\Scripts\ChangeScene.cs" />
     <Compile Include="Assets\ARToolKit5-Unity\Scripts\PluginFunctions.cs" />
+    <Compile Include="Assets\ARToolKit5-Unity\Scripts\ProgramQuit.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\ARToolKit5-Unity\CHANGELOG.txt" />

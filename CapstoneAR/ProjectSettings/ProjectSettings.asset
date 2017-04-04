@@ -484,7 +484,7 @@ PlayerSettings:
   XboxOnePersistentLocalStorageSize: 0
   vrEditorSettings: {}
   cloudServicesEnabled:
-    UNet: 0
+    UNet: 1
   cloudProjectId: 904e4a33-2825-4380-abba-0a4fc74a0652
   projectName: CapstoneAR (1)
   organizationId: ansim
