@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapstoneAR532_2", "CapstoneAR532_2.csproj", "{CA2DFF6C-7A8F-668A-7FD7-1C9E1B1900B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapstoneAR532_2.Editor", "CapstoneAR532_2.Editor.csproj", "{81954AC4-9997-FF1E-D0EA-6C6DAE6F3BAD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CA2DFF6C-7A8F-668A-7FD7-1C9E1B1900B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA2DFF6C-7A8F-668A-7FD7-1C9E1B1900B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA2DFF6C-7A8F-668A-7FD7-1C9E1B1900B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA2DFF6C-7A8F-668A-7FD7-1C9E1B1900B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81954AC4-9997-FF1E-D0EA-6C6DAE6F3BAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81954AC4-9997-FF1E-D0EA-6C6DAE6F3BAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81954AC4-9997-FF1E-D0EA-6C6DAE6F3BAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81954AC4-9997-FF1E-D0EA-6C6DAE6F3BAD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
