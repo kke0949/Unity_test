@@ -669,6 +669,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 229603496}
+  - {fileID: 1320092873}
   m_Father: {fileID: 687964063}
   m_RootOrder: 0
 --- !u!114 &1238897799
@@ -685,6 +686,47 @@ MonoBehaviour:
   secondsToRemainVisible: 0
   eventReceiver: {fileID: 0}
   _markerTag: Marker1
+--- !u!1 &1320092871
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1320092873}
+  - 114: {fileID: 1320092872}
+  m_Layer: 0
+  m_Name: LoadAssetBundleObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1320092872
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1320092871}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 372b9ecb5f2a57a41bf805ce547d416e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BundleURL: http://113.198.234.35:8000/Asset/anna_summer
+  version: 0
+--- !u!4 &1320092873
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1320092871}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071067}
+  m_LocalPosition: {x: -0.09383965, y: 0.0026244952, z: -0.13666646}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1238897798}
+  m_RootOrder: 1
 --- !u!1 &1380731645
 GameObject:
   m_ObjectHideFlags: 0
